@@ -1,0 +1,8 @@
+body {
+		background-image: url(http://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Detroit_Red_Wings_Original_Logo.svg/220px-Detroit_Red_Wings_Original_Logo.svg.png);
+}
+h1 {
+		text-align: center; 
+		background-color: red;
+		border: 5px groove;
+}

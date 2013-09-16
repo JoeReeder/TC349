@@ -1,17 +1,24 @@
 function hello(){ 
-	var sBrowser, sUsrAg = navigator.userAgent;
+	var appName;
+	var userAgent = navigator.userAgent;
 
-	if(sUsrAg.indexOf("Chrome") > -1) {
-	    sBrowser = "Google Chrome";
-	} else if (sUsrAg.indexOf("Safari") > -1) {
-	    sBrowser = "Apple Safari";
-	} else if (sUsrAg.indexOf("Opera") > -1) {
-	    sBrowser = "Opera";
-	} else if (sUsrAg.indexOf("Firefox") > -1) {
-	    sBrowser = "Mozilla Firefox";
-	} else if (sUsrAg.indexOf("MSIE") > -1) {
-	    sBrowser = "Microsoft Internet Explorer";
+	if(userAgent.indexOf("Chrome") > -1) {
+	    appName = "Google Chrome";
+	} 
+	else if (userAgent.indexOf("Safari") > -1) {
+	    appName = "Apple Safari";
+	} 
+	else if (userAgent.indexOf("Opera") > -1) {
+	    appName = "Opera";
+	} 
+	else if (userAgent.indexOf("Firefox") > -1) {
+	    appName = "Mozilla Firefox";
+	} 
+	else if (userAgent.indexOf("MSIE") > -1) {
+	    appName = "Microsoft Internet Explorer";
 	}
-
-	alert("You are using: " + sBrowser);
+	else{
+		appName = "Cannot be determined";
+	}
+	alert( "Browser Name : "+ appName );
 }

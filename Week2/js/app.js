@@ -1,4 +1,4 @@
-function hello(){ 
+function displayApplicationName(){ 
 	var appName;
 	var userAgent = navigator.userAgent;
 

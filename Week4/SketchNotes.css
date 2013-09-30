@@ -1,0 +1,65 @@
+body {
+	background-image:url('http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Detroit_Red_Wings_logo.svg/200px-Detroit_Red_Wings_logo.svg.png');
+	font-family: "Helvetica", sans-serif;
+	line-height: 1.4em;
+	border-top: 5px solid #000;
+}
+
+#Header {
+	background: #f00;
+	text-align: center;
+	padding: 10px;
+	color: #000;
+}
+
+#Main {
+	width: 600px;
+	margin: 10px auto;
+	background: #f00;
+	border: 10px solid #000;
+	border-radius: 20px;
+}
+
+.NoteNames {
+	margin: 10px 15px;
+	padding: 10px;
+	color: #000;
+}
+
+img {
+	width: 500px;
+	margin: 0px 50px;
+	border: 5px solid #000;
+	border-radius: 20px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 7px;
+	font-size: 50px;
+	text-shadow: 1px 1px 2px #fff;
+}
+
+article {
+	padding: 10px;
+}
+
+p {
+	width: 500px;
+	margin: 50px;
+	font-size: 20px;
+}
+
+ul{
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+a {
+	color: #fff;
+}
+li{
+	margin: 7px;
+	display: inline;
+}

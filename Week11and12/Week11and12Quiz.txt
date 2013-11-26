@@ -1,0 +1,79 @@
+Joe Reeder
+Week 11/12 Quiz
+
+1) True or False. A Michigan LLC can have one or multiple member s/partners.
+
+- True. A Michigan LLC works with individuals or partners.
+
+2)True or False. Once you have a business name, the next step is to open a bank account.
+
+- False. After you have the Articles of Organization, you need to apply for a Federal Employer Identification Number (EIN). Without an EIN, you cannot open a bank account. Opening a bank account is step three.
+
+3)True or False. You only have to file a Michigan LLC Annual Report if your company earned money during the fiscal year.
+
+- False. You are required to fill out an Annual Report in order to maintain your status as an LLC.
+
+4)Name one thing general liability insurance might cover.
+
+- "If someone comes to your office and they fall and break their arm because they slipped on some water in your kitchen, or fell on the ice outside your store front" (any type of personal injury that happens on your premises), Rent an office, ect.
+
+5)True or False. The City of Lansing levies an income tax.
+
+- True. As it says in the video there is a personal income tax somewhere around .5%.
+
+6)Calculate your hourly billing rate for a web design business if you aim to pay yourself $45,000/year with a profit margin of 25%.
+
+	Labor: 
+		Want to make $45,000 a year
+		It will cost about ~35% (1.35) to pay out the wanted salary
+		$45,000 * 1.35 = $60,750
+		
+		1,920 Work Hours per year 
+		Only 60% of thoes hours are billable
+		1,920 * .60 = 1,152 billable hours per calendar year
+		
+		$60,750/1,152 billable hours = $52.73/hour ~ $53/hour
+		
+		labor = $53/hour
+	
+	Overhead: 
+		$1000 a month in overhead ($12,000 overhead per year)
+		1,152 billable hours
+		$12,000/1,152 hours = $10.42/hour ~ $11/hour
+		
+		overhead = $11/hour
+		
+	Operating Cost: $64/hour just to break even
+	
+	Profit: 
+		profit margin: 25%
+		$64/hour operating cost * .25 profit margin = $16/hour for a profit
+		
+	Final Hourly Rate: 
+		labor + overhead + profit = $80/hour <= answer
+		
+
+7)True or False. Work for hire means that you get to remain the copyright holder after you've delivered your work to the client.
+
+- False. With work for hire, the copyright belongs to the paying party.
+
+8)Find one local networking event in Lansing and one web design conference (globally) that's happening in 2014.
+
+- Local networking event in Lansing:
+	Michigan ACE Women's Network2014 Conference (June 2-3, 2014)
+	http://www.eventbrite.com/invite-friends?eid=7410630395
+
+- Global web design conference:
+	Future of Web Design in London 
+	http://futureofwebdesign.com/london-2014/
+
+9)True or False. You can use your personal checking account for business as long as you are not a corporation.
+
+- False.
+
+10)Name three ways you could become a thought leader in your industry.
+
+- Form opinions and share them with the community
+- Guest post on established blogs to build your name
+- Be as involved as you can in your professional community
+- Get to know the competition 

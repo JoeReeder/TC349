@@ -96,65 +96,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header {
+	border-top: 10px solid #434343;
+}
+
+#WebsiteHeader{
+	padding: 0 33px 0 33px;
+}
 
 body {
-	border-top: 10px solid #424242;
-	padding-bottom: 50px;
-}
-	
-header {
-	background: url(../img/Joe_hBg.jpg) no-repeat;
-	height: 462px;
-	padding: 40px;
-	background-size: cover;
+	background: rgb(118, 44, 167);
 }
 
-h1, h2, p, ul {
-	margin: 0;
+#Content_Background {
+	width: 800px;
+	background: #fff;
+	float: right;
+	margin-right: 142px;
 }
 
-ul {
-	list-style-type: none;
-	padding: 0;
-}
-	
-h1 {
-	padding-top: 390px;
-	color: #fff;
+p {
+	margin-top: 0;
 }
 
-h2 {
-	font-weight: normal;
-	color: #fff;
-}
 
-#map-location {
-	background: #f3f3f3;
-	background-position: center;
-	height: 250px;
-	transition: background-image 2s;
-}
 
-nav {
-	float: left;
-	width: 250px;
-}
 
-article {
-	margin-left: 300px;
-}
 
-.gallery li {
-	display: inline-block;
-	margin: 0 2% 2% 0;
-	border: 5px solid #fff;
-	box-shadow: 0 0 10px #ccc;
-	transition: border-color .3s;
-}
 
-.gallery li:hover {
-	border-color: #aeccf9;
-}
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes

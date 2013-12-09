@@ -1,0 +1,21 @@
+#Links li {
+	display: list-item;
+}
+
+#Links {
+	background-color: #fff;
+	list-style: none;
+}
+
+#Links a {
+	text-decoration: none !important;
+	text-shadow:  0.1em 0.1em #ffcc66;
+	color: #000 !important;
+	font-size: 30px;
+}
+
+@media (max-width: 500px){
+	#Links a {
+		font-size: 20px;
+	}
+}

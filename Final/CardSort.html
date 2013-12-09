@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Card Sort</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+	<style type="text/css" media="screen">
+		.Title_Cell, .Number_Cell {
+			background: #424242;
+			padding: 5px;
+		}
+	</style>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+	<table border="0">
+		<tr>
+			<td class="Title_Cell">Number</td>
+			<td class="Title_Cell">Section/Page</td>
+			<td class="Title_Cell">Description</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">1</td>
+			<td>Main Page</td>
+			<td>Main page that displays an overview of the page</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">2</td>
+			<td>List of Active Brothers</td>
+			<td>Directory of the Active Brothers in our house</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">3</td>
+			<td>Awards</td>
+			<td>List of the awards granted to the fraternity</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">4</td>
+			<td>About Us</td>
+			<td>Tells the user about Sigma Pi at MSU</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">5</td>
+			<td>Eboard</td>
+			<td>Displays the current executive board</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">6</td>
+			<td>Contact Information</td>
+			<td>Information on how to contact this fraternity</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">7</td>
+			<td>Description of Events</td>
+			<td>Overview of the events we hold</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">8</td>
+			<td>Current News</td>
+			<td>What is currently happening with our fraternity</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">9</td>
+			<td>Social Media</td>
+			<td>Twitter and Facebook feeds</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">10</td>
+			<td>Philanthropy</td>
+			<td>Information about our Philanthropy events</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">11</td>
+			<td>Scholarship</td>
+			<td>GPA and academic standings</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">12</td>
+			<td>Alumni</td>
+			<td>A page for our alumni to post and/or see information</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">13</td>
+			<td>Statistics</td>
+			<td>How much money we raise for our philanthropy events</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">14</td>
+			<td>Multimedia</td>
+			<td>Photos and Videos</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">15</td>
+			<td>Pictures</td>
+			<td>Pictures of the house and our events</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">16</td>
+			<td>Videos</td>
+			<td>Videos of our events and thoes we take part in</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">17</td>
+			<td>Information about Joining Sigma Pi</td>
+			<td>Costs of joining, when recruitment takes place</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">18</td>
+			<td>Time Management Help</td>
+			<td>Tips and tricks for time management</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">19</td>
+			<td>FAQ Page</td>
+			<td>Questions people as about our fraternity</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">20</td>
+			<td>Sigma Pi MSU History</td>
+			<td>Our history on campus</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">21</td>
+			<td>List of Committees and Chairmen</td>
+			<td>List of all committees and chairmen along with contact information</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">22</td>
+			<td>Future Plans</td>
+			<td>What is in store for the future of our house</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">23</td>
+			<td>Altruistic Campus Experience(ACE)</td>
+			<td>Information and how to get involved</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">24</td>
+			<td>Community Service</td>
+			<td>Statistics and what we have taken part in</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">25</td>
+			<td>Internal Awards</td>
+			<td>Brother of the year, best GPA in the house, alumni of the year</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">26</td>
+			<td>News</td>
+			<td>What has been going on recently</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">27</td>
+			<td>Calendar</td>
+			<td>Events and dates worth noting</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">28</td>
+			<td>Events</td>
+			<td>Events and dates worth noting</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">29</td>
+			<td>Twitter</td>
+			<td>Twitter feed</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">30</td>
+			<td>Facebook</td>
+			<td>Facebook feed</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">31</td>
+			<td>Resources</td>
+			<td>Helpful links</td>
+		</tr>
+		<tr>
+			<td>
+				
+			</td>
+		</tr>
+	</table>
+	
+	<table border="0">
+		<tr>
+			<td class="Title_Cell">Number</td>
+			<td class="Title_Cell">Section/Page</td>
+			<td class="Title_Cell">Card Sort 1</td>
+			<td class="Title_Cell">Card Sort 2</td>
+			<td class="Title_Cell">Card Sort 3</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">1</td>
+			<td class="Title_Cell">Main Page</td>
+			<td>Main section for the webpage</td>
+			<td>Section that holds links and news</td>
+			<td>Setion that holds news and events</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">2</td>
+			<td class="Title_Cell">List of Active Brothers</td>
+			<td>Give it it's own page</td>
+			<td>Give it it's own page</td>
+			<td>Give it it's own page</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">3</td>
+			<td class="Title_Cell">Awards</td>
+			<td>Add in about us</td>
+			<td>Add in about us</td>
+			<td>Give it's own page</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">4</td>
+			<td class="Title_Cell">About Us</td>
+			<td>Holds house history and brothers list</td>
+			<td>Holds history and misc info about the house</td>
+			<td>Holds information about local info and Nationals </td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">5</td>
+			<td class="Title_Cell">Eboard</td>
+			<td>Add to Chairmen section</td>
+			<td>Give it's own page</td>
+			<td>Add to Chairmen section</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">6</td>
+			<td class="Title_Cell">Contact Information</td>
+			<td>Don't include</td>
+			<td>Give it it's own page</td>
+			<td>Put Under resources</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">7</td>
+			<td class="Title_Cell">Description of Events</td>
+			<td>Add in with Chairmen section</td>
+			<td>Add in about us</td>
+			<td>Don't include</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">8</td>
+			<td class="Title_Cell">Current News</td>
+			<td>Put on main page with events</td>
+			<td>Put on main page with social media</td>
+			<td>Give it it's own page</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">9</td>
+			<td class="Title_Cell">Social Media</td>
+			<td>Give it its own page of Twitter and Facebook</td>
+			<td>Add on Main page with covering Twitter and Facebook</td>
+			<td>Add on Main page containing Twitter and Facebook</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">10</td>
+			<td class="Title_Cell">Philanthropy</td>
+			<td>Give it it's own page</td>
+			<td>Put under chairmen</td>
+			<td>Don't include</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">11</td>
+			<td class="Title_Cell">Scholarship</td>
+			<td>Put under about us</td>
+			<td>Give it it's won page</td>
+			<td>Include under chairmen</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">12</td>
+			<td class="Title_Cell">Alumni</td>
+			<td>Don't include</td>
+			<td>Don't include</td>
+			<td>Give it it's own page</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">13</td>
+			<td class="Title_Cell">Statistics</td>
+			<td>Don't include</td>
+			<td>Don't include</td>
+			<td>Don't include</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">14</td>
+			<td class="Title_Cell">Multimedia</td>
+			<td>Give it it's own section</td>
+			<td>Give it it's own section</td>
+			<td>Give it it's own section</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">15</td>
+			<td class="Title_Cell">Pictures</td>
+			<td>Put under multimedia</td>
+			<td>Put under multimedia</td>
+			<td>Put under multimedia</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">16</td>
+			<td class="Title_Cell">Videos</td>
+			<td>Don't include</td>
+			<td>Don't include</td>
+			<td>Don't include</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">17</td>
+			<td class="Title_Cell">Information about Joining Sigma Pi</td>
+			<td>Include in about us with Nationals info</td>
+			<td>Include under Recruitment Section</td>
+			<td>Include in contact info</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">18</td>
+			<td class="Title_Cell">Time Management Help</td>
+			<td>Don't include</td>
+			<td>Don't include</td>
+			<td>Don't include</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">19</td>
+			<td class="Title_Cell">FAQ Page</td>
+			<td>Don't include</td>
+			<td>Don't include</td>
+			<td>Include in about us</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">20</td>
+			<td class="Title_Cell">Sigma Pi MSU History</td>
+			<td>Don't include</td>
+			<td>Give it it's own page</td>
+			<td>Put in about us</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">21</td>
+			<td class="Title_Cell">List of Committees and Chairmen</td>
+			<td>Give it it's own page</td>
+			<td>Add unders section with list of brothers</td>
+			<td>Give it it's own page</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">22</td>
+			<td class="Title_Cell">Future Plans</td>
+			<td>Don't include</td>
+			<td>Put with news and/or events</td>
+			<td>Put with news and events</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">23</td>
+			<td class="Title_Cell">Altruistic Campus Experience(ACE)</td>
+			<td>Add under chairmen</td>
+			<td>Add under chairmen</td>
+			<td>Give it it's own page</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">24</td>
+			<td class="Title_Cell">Community Service</td>
+			<td>Put under chairmen</td>
+			<td>Give it it's own page</td>
+			<td>Do not include</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">25</td>
+			<td class="Title_Cell">Internal Awards</td>
+			<td>Don't Add</td>
+			<td>Don't Add</td>
+			<td>Don't Add</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">26</td>
+			<td class="Title_Cell">Calendar</td>
+			<td>Add with events and future plans</td>
+			<td>Give it it's own page</td>
+			<td>Add with events and future plans and news</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">27</td>
+			<td class="Title_Cell">News</td>
+			<td>Add with events and calendar</td>
+			<td>Add with events</td>
+			<td>Add with events</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">28</td>
+			<td class="Title_Cell">Events</td>
+			<td>Add with news</td>
+			<td>Add with calendar</td>
+			<td>Add with calendar</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">29</td>
+			<td class="Title_Cell">Twitter</td>
+			<td>Put on main page</td>
+			<td>Put on main page with Facebook</td>
+			<td>Put under social media with Facebook</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">30</td>
+			<td class="Title_Cell">Facebook</td>
+			<td>Put on main page with twitter</td>
+			<td>Put under social media with twitter</td>
+			<td>Put under social media with twitter</td>
+		</tr>
+		<tr>
+			<td class="Number_Cell">31</td>
+			<td class="Title_Cell">Resources</td>
+			<td>Give it it's own page</td>
+			<td>Give it it's own page</td>
+			<td>Put with contact info</td>
+		</tr>
+	</table>
+</body>
+</html>

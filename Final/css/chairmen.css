@@ -1,0 +1,126 @@
+#SubNav li:hover {
+	background: #C1AAD0;
+}
+
+#SubNav {
+	float: left;
+}
+
+#SubNav li {
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+
+#SubNav ul {
+	background: #fff;
+	width: 300px;
+	margin-top: 0;
+	padding-left: 0;
+	border: 2px solid #000;
+}
+
+#SubNav a {
+	text-decoration: none;
+	font-size: medium;
+	color: #000;
+}
+
+h2{
+	text-align: center;
+	background: #d3d3d3;
+	margin: 10px;
+}
+#Committees {
+	width: 724px;
+	display: block;
+	float: right;
+}
+
+.SmallFont {
+	text-align: center;
+	font-size: 16px;
+}
+
+.HeadShots {
+	width: 150px;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+footer {
+	clear: both;
+}
+
+#Committees ul {
+	background: #fff;
+}
+
+.Single {
+	width: 230px;
+	display: inline-block;
+}
+
+.PictureContainer {
+	text-align: center;
+}
+
+
+@media (max-width: 500px){
+	.HeadShots {
+		width: 100px;
+		height: 133px;
+	}
+	
+	.Single {
+		width: 150px;
+		display: inline-block;
+	}
+	#SubNav {
+		float: none;
+	}
+	#SubNav li {
+		padding: 0;
+		font-size: 10px;
+	}
+
+	#SubNav ul {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 10px;
+		width: 450px;
+		border: 2px solid #000;
+	}
+
+	h2{
+		margin: 0;
+		font-size: 15px;
+	}
+	#Committees {
+		display: block;
+		margin: 0 auto;
+		width: 450px;
+		float: none;
+	}
+	
+	.Names, .SmallFont, .Title {
+		font-size: 10px;
+	}
+
+	.HeadShots {
+		width: 150px;
+		height: 200px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#Committees ul {
+		background: #fff;
+	}
+	
+	#SubNav a {
+		font-size: 10px;
+	}
+}

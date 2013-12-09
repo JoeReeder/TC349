@@ -1,0 +1,52 @@
+.stripe1 {
+    background-color:#999999;
+}
+.stripe2 {
+    background-color:#666666;
+}
+.highlight {
+    background-color: #ffcc66;
+    font-weight:bold;
+}
+.TableColumnTitle {
+	text-align: center;
+	background: #C1AAD0;
+	font-size: 20px;
+	border-bottom: double;
+}
+th {
+	background: #C1AAD0;
+	font-size: 25px;
+	text-align: center;
+}
+#Brothers {
+	width: 984px;
+	margin: 20px auto;
+}
+#Brothers td{
+	padding: 5px;
+	width: 25%;
+	text-align: center;
+}
+
+.EmailCell {
+	text-decoration: none;
+}
+
+@media (max-width: 500px){
+	#Brothers td{
+		font-size: 10px;
+	}
+	
+	#Brothers {
+		width: 450px;
+		margin: 0 auto;
+	}
+	
+	.TableColumnTitle {
+		text-align: center;
+		background: #C1AAD0;
+		font-size: 20px;
+		border-bottom: double;
+	}
+}

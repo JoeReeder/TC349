@@ -1,0 +1,47 @@
+.committeeTitle {
+	background-color: #ffcc66;
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;	
+}
+
+#Left {
+	float: left;
+	width: 512px;
+}
+
+#Right {
+	float: right;
+	width: 512px;
+}
+
+p {
+	text-align: center;
+}
+
+#Address {
+	clear: both;
+}
+
+@media (max-width: 500px){
+	#Left {
+		display: block;
+		margin: 0 auto;
+		float: none;
+		width: 450px;
+	}
+	
+	#Right {
+		display: block;
+		margin: 0 auto;
+		padding-top: 10px;
+		float: none;
+		width: 450px;
+	}
+	
+	#Address {
+		clear: none;
+	}
+}

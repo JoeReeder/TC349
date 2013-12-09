@@ -1,0 +1,28 @@
+.centerThis {
+	text-align: center;
+}
+
+.GivePadding {
+	padding-left: 20px;
+}
+
+#Flag img{
+	display: block;
+	padding-left: 20px;
+}
+
+@media (max-width: 500px){
+	#Content_Background {
+		margin-right: 0;
+	}
+	.GivePadding {
+		padding-left: 0;
+	}
+	h2 {
+		font-size: 15px;
+		margin: 0;
+	}
+	p {
+		width: 500px;
+	}
+}
